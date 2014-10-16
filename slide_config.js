@@ -20,7 +20,7 @@ var SLIDE_CONFIG = {
   presenters: [{
     name: 'Raymon Schouwenaar',
     company: 'Frontend Developer',
-    gplus: 'http://plus.google.com/1234567890',
+    gplus: 'https://plus.google.com/u/0/+RaymonSchouwenaar1988/',
     twitter: '@rsschouwenaar',
     www: 'http://www.raymonschouwenaar.nl',
     github: 'http://github.com/raymonschouwenaar'
