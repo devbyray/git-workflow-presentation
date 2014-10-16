@@ -27,24 +27,23 @@ URL: https://code.google.com/p/io-2012-slides
 <slides class="layout-widescreen">
 
   <slide class="title-slide segue nobackground">
-    <aside class="gdbar"><img src="images/raymon_profile.jpg"></aside>
-    <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
     <hgroup class="auto-fadein">
       <h1 data-config-title><!-- populated from slide_config.json --></h1>
       <h2 data-config-subtitle><!-- populated from slide_config.json --></h2>
+      <h3>Git Situation</h3>
       <p data-config-presenter><!-- populated from slide_config.json --></p>
     </hgroup>
   </slide>
 
   <slide>
     <hgroup>
-      <h2>We start with JIRA</h2>
+      <h2>Stash - Merge Conflict</h2>
     </hgroup>
     <article>
-      <img src="images/jira-story-create-branch-in-git-stash.jpg" class="float_right" alt="We start with JIRA" title="We start with JIRA">
-      <p>Every feature development starts with an JIRA story.</p>
-      <p>From an JIRA story you create an feature branch by clicking on the link. (see image)</p>
-      <p>This window appears on the right when clicking on the story link from the board (work mode)</p>
+      <strong>So you got an Merge conflict in the pull-request.</strong>
+      <p>Be shure you're on the feature branch. Than try <code>git merge master</code>. Git will tell you there is an conflict that needs to be resolved. Git tells you in which file the conflict is. So you can fix the conflict.</p>
+      <p>Is the conflict fixed? Than commit and push the fix to your feature branch.</p>
+      <p>Now try again to merge te pull-request in Stash.</p>
     </article>
   </slide>
 
@@ -127,17 +126,6 @@ URL: https://code.google.com/p/io-2012-slides
       <p><strong>If your an tester?</strong><br />
         If you approved the pull-request, than drag the JIRA task to done. (to keep the JIRA board up-to-date).
       </p>
-    </article>
-  </slide>
-
-  <slide>
-    <hgroup>
-      <h2>Tips &amp; Tricks</h2>
-    </hgroup>
-    <article>
-      <ul>
-        <li><a href="situations.html#2" title="">Stash - Merge conflict</a></li>
-      </ul>
     </article>
   </slide>
 
